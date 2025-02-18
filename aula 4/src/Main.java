@@ -21,5 +21,8 @@ public class Main {
         //Sacando
         conta2.sacar(1000);
         System.out.println(conta2.saldo);
+
+        conta1.transferir(conta2,100);
+
     }
 }

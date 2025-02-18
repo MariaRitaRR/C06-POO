@@ -19,10 +19,16 @@ public class Conta {
         saldo += quantidade;
     }
 
-    public void transferir(float quantidade, Conta destino){
-
+    public void transferir(float quantidade, Conta contaDestino){
+        if (quantidade < saldo){
+            saldo -= quantidade;
+            contaDestino.saldo += quantidade;
+        }else {
+            System.out.println("Saldo insuficiente");
+        }
     }
     public void verificarSaldo(){
+
 
     }
 }
