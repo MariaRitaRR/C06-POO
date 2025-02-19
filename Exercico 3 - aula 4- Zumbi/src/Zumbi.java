@@ -4,6 +4,7 @@ public class Zumbi {
     String nome;
 
     void transfereVida(Zumbi zumbiAlvo,Zumbi zumbiDoador, double quantiaDeVida){
+
         zumbiAlvo.vida += quantiaDeVida;
         zumbiDoador.vida -= quantiaDeVida;
 
