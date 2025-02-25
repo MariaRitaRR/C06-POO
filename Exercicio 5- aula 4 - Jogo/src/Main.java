@@ -11,6 +11,7 @@ public class Main {
         personagem.arma.poder = 15;
         personagem.arma.nome = "Frigideira";
 
+
         personagem.arma.mostrarInfoArma();
 
         personagem.usarArma();
